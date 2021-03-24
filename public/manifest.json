@@ -1,0 +1,17 @@
+{
+  "short_name": "titlename",
+  "name": "titlename",
+  "description": "",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "titlename",
+    "default_popup": "./index.html"
+  },
+  "commands": {},
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [],
+  "content_security_policy": "script-src 'self' 'sha256-xxx'; object-src 'self'"
+}
